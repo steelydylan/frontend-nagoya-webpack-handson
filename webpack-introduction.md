@@ -144,6 +144,13 @@ npm run dev
 ---
 # webpack-dev-serverの利用
 
+---
+# webpack-dev-serverの利用
+
+```sh
+npm i webpack-dev-server --save-dev
+```
+
 ```sh
 "start": "webpack-dev-server --mode development --open",
 "build": "webpack --mode production"
@@ -234,7 +241,7 @@ hello('daigo'); // hello daigo
 
 
 ```sh
-npm i react react-dom --save-dev
+npm i react react-dom --save
 ```
 ---
 
@@ -276,5 +283,14 @@ ReactDOM.render(<App />, document.getElementById("app"));
 
 # ソースコード
 
+https://github.com/steelydylan/frontend-nagoya-webpack-handson
+
+```sh
+git clone git@github.com:steelydylan/frontend-nagoya-webpack-handson.git
+npm install
+```
+
+していただければ今日のでも環境が整います
+
 ---
-ありがとうございました。
+# ありがとうございました。
